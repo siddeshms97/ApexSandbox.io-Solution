@@ -1,5 +1,6 @@
 public String aOrAn(String word) {
     //code here
-    String result = (startsWith('a' OR 'e' OR 'i' OR 'o' OR 'u' )) ? ('an ' + word) : ('a ' + word);
+    List<String> vowels = new List<String> {'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'};
+    String result = (word.startsWityh(vowels)) ? 'an ' + word : 'a ' + word;
     return result;
 }
