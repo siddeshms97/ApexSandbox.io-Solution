@@ -1,0 +1,5 @@
+public String aOrAn(String word) {
+    //code here
+    String result = (startsWith('a' || 'e' || 'i' || 'o' || 'u' )) ? ("an " + word) : ("a " + word);
+    return result;
+}
