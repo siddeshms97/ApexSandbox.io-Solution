@@ -1,5 +1,5 @@
 public Decimal computeTip(Decimal total, Integer percent) {
     //code here
-    Decimal tip = total * ( percent / 100);
+    Decimal tip = total * percent;
     return tip;
 }
