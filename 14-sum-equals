@@ -1,5 +1,5 @@
 public Boolean sumEquals(Integer a, Integer b, Integer c) {
     //code here
-    Boolean result = ((a+b)==c) ? True : Fale;
+    Boolean result = ((a+b)==c) ? True : False;
     return result;
 }
