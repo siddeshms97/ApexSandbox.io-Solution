@@ -10,5 +10,7 @@ public Boolean isPassed(Boolean passedExam, Boolean passedAssignments, Boolean p
         return true;
     }
     else
-    return false;
+    {
+        return false;
+    }    
 }
