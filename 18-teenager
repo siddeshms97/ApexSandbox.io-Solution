@@ -1,0 +1,5 @@
+public Boolean isTeenager(Integer age) {
+    //code here
+    Boolean result = (age>=13) ? True : False;
+    return result;
+}
