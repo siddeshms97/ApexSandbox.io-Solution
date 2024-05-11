@@ -3,8 +3,12 @@ public Boolean isPrime(Integer num) {
     if(num == 2){
         return true;
     }
-    else if(Math.mod(num,2) != 0){
-        return true;
+    else if{
+        for(i=2; i<=num-1; i++){
+            if(Math.mod(i,2)!=0){
+            return true;
+            }
+        }
     }
     return false;
 }
